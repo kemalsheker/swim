@@ -2,6 +2,8 @@
 MAINSIMDIR=../../src/
 MAINSIMEXEC=swim
 
+echo "IF YOU'RE READING THIS, THE IMAGE WAS SUCCESSFULLY MODIFIED"
+
 if [ $# -lt 1 ]; then
 	echo "usage: $0 config [run-number(s)|all [ini-file]]"
 	echo example:
