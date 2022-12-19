@@ -9,7 +9,7 @@ ENV BASE_DIR=${HOME}/seams-swim
 WORKDIR ${BASE_DIR}
 
 RUN git clone https://github.com/kemalsheker/swim.git
-RUN git switch donal
+RUN git branch donal origin/donalllll
 
 RUN tar xzf swim/queueinglib.tgz
 
