@@ -4,6 +4,6 @@ DIR=`dirname $0`
 cd $DIR/omnetpp-vnc
 docker build . -t gabrielmoreno/omnetpp-vnc:5.4.1
 cd ..
-docker build . -t kemalsheker/swim:1.0.1
+docker build . -t donalshortt/swim:1.0.1
 cd $CURDIR
 
