@@ -1,5 +1,7 @@
 # NOTES FOR THE BOYS
 
+## To build, upload and run a modified image
+
 ### Prerequisites: 
 
 A docker account (make sure you login with): 
