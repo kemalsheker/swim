@@ -6,22 +6,25 @@ A docker account (make sure you login with):
 ```
 docker login
 ```
+
+### Steps:
+
 Navigate to /docker and run:
 ```
 ./build-images.sh
 ```
 tag the image 
 ```
-docker tag
+docker tag {IMAGE_ID} {YOUR_DOCKERHUB_ID}/{REPO_NAME}
 ```
 and push to image to your docker repo
 ```
-docker push
+docker push {YOUR_DOCKERHUB_ID}/{REPO_NAME}:latest
 ```
 
 then run the image with:
 ```
-   > docker run -d -p 5901:5901 -p 6901:6901 --name myswim YOUR_REPO
+   > docker run -d -p 5901:5901 -p 6901:6901 --name myswim {YOUR_DOCKERHUB_ID}/{YOUR_REPO}
 ```
 
 # SWIM - A Simulator of Web Infrastructure and Management
