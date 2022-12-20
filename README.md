@@ -1,3 +1,29 @@
+# NOTES FOR THE BOYS
+
+### Prerequisites: 
+
+A docker account (make sure you login with): 
+```
+docker login
+```
+Navigate to /docker and run:
+```
+./build-images.sh
+```
+tag the image 
+```
+docker tag
+```
+and push to image to your docker repo
+```
+docker push
+```
+
+then run the image with:
+```
+   > docker run -d -p 5901:5901 -p 6901:6901 --name myswim YOUR_REPO
+```
+
 # SWIM - A Simulator of Web Infrastructure and Management
 SWIM is a self-adaptive exemplar that simulates a web application. SWIM can be used as a target system with an external adaptation manager interacting with it through its TCP-based interface or with an adaptation manager built as a simulation module.
 
